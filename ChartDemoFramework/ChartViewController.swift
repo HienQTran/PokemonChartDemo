@@ -58,15 +58,15 @@ final public class ChartViewController: UIViewController {
         yAxis.xOffset = 0
         yAxis.yOffset = 0
         
-        let l = chart.legend
-        l.horizontalAlignment = .center
-        l.verticalAlignment = .top
-        l.orientation = .vertical
-        l.drawInside = false
-        l.font = .systemFont(ofSize: 10, weight: .light)
-        l.xEntrySpace = 7
-        l.yEntrySpace = 5
-        l.textColor = .white
+        let legend = chart.legend
+        legend.horizontalAlignment = .center
+        legend.verticalAlignment = .top
+        legend.orientation = .vertical
+        legend.drawInside = false
+        legend.font = .systemFont(ofSize: 10, weight: .light)
+        legend.xEntrySpace = 7
+        legend.yEntrySpace = 5
+        legend.textColor = .white
         
         return chart
     }()
